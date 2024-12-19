@@ -100,15 +100,15 @@ VALUES
 
 INSERT INTO Staff(FirstName, LastName, Initials)
 VALUES
-('Jamie','Roberts','JR'),
-('Abdelmalek','Benattayallah','AB'),
-('Lucy','Wallis','LW'),
-('Mike','Mayo','MM'),
-('Peter','Wright','PJW'),
-('Sarah','Lamerton','SL'),
-('Travis','Banks','TB'),
-('Nat','Glover','NG'),
-('Vicki','La''Roche','VL');
+('[]','[]','JR'),
+('[]','[]','AB'),
+('[]','[]','LW'),
+('[]','[]','MM'),
+('[]','[]','PJW'),
+('[]','[]','SL'),
+('[]','[]','TB'),
+('[]','[]','NG'),
+('[]','[]','VL');
 
 INSERT INTO Staff(FirstName, LastName, Initials)
 VALUES
@@ -116,7 +116,7 @@ VALUES
 
 INSERT INTO Staff(FirstName, LastName, Initials)
 VALUES
-('Egle','Rackaityte','ER')
+('[]','[]','ER')
 
 /****INSERT DATA INTO JOB TABLE****/
 
