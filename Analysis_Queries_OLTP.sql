@@ -1,7 +1,3 @@
-USE CMI_MRSafetyDB
-GO
-
-
 /**** NUMBER OF JOBS PER SITE ****/
 
 SELECT
