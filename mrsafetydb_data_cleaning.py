@@ -13,7 +13,7 @@ def connect_to_db(server_name, database_name):
     except Exception as e:
         print(f"Error connecting to database {database_name} on server {server_name}: {e}")
 
-server_name ="[REDACTED]"
+server_name ="[]"
 database_name = "CMI_MRSafetyDB"
 engine = connect_to_db(server_name, database_name)
 
@@ -27,8 +27,7 @@ def extract_data(file_path):
         print(f"Error extracting data from CSV file: {e}")
         return None
 
-file_path = r"G:\CMI\STP Clinical Scientist\SciCom\Lauren Willis\Projects\MRI Safety DB\MRSafetyWorklist-22.11.2024.csv"
-df = extract_data(file_path)
+file_path = []
 
 # Display first 5 rows
 print(df.head())
